@@ -1,0 +1,16 @@
+name: AdvancedReport
+version: '1.0-SNAPSHOT'
+main: dev.snitchiolas.advancedReport.Initializer
+api-version: '1.21'
+authors: [ SNITCHIOLAS ]
+description: The ultimate report system
+website: https://snitchiolas.netlify.app/
+commands:
+  report:
+    description: "Report a player"
+  reportreload:
+    description: "Reload all configs"
+    permission: "report.command.reload-config"
+  spectate:
+    description: "Spectate a suspicius player"
+    permission: "report.command.spectate"

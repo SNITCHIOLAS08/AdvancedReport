@@ -1,0 +1,45 @@
+messages:
+
+  general:
+    not-a-player: "&#ff0000You must be a player to run this command"
+    insufficient-permissions: "&#ff0000You don't have any permissions to run this command"
+    config-reloaded: "&#00ff00Config reloaded!"
+
+  report:
+    alerts-enable: "&aYou enable the reports alerts"  # When a staff switch on the report alerts
+    alerts-disable: "&cYou disable the reports alerts" # When a staff switch off the report alerts
+
+    spect-enable: "&aYou are in spectator mode"  # When a staff is in spectator mode
+    spect-disable: "&cYou are not more in spectator mode" # When a staff is not more in spectator mode
+    cant-spect-yourself: "&cYou can't spectate yourself!" # When a staff try to spectate himself
+
+    usage: "&7Unknown command. Try use /report <player> <reason>"
+
+    report-sent: "&aWe recive your report to %target%. Thanks to report cheater!" # When a report are sent
+    # The message the staff receives
+    recive-report:
+      - "&7---------------------------"
+      - "&b&lNEW REPORT"
+      - "&7Reporter: &f%reporter%"
+      - "&7Player reported: &f%target%"
+      - "&7Reason: &f%reason%"
+      - "&7---------------------------"
+
+    buttons:
+      ban:
+        name: "&7[&4&lBAN&7]" # The name of the button that manages the ban
+        description: "&7Click to ban the reported player" # The description when you put the mouse on the message
+      spectate:
+        name: "&7[&e&lSPECTATE&7]" # The name of the button that tp to the reported player
+        description: "&7Click to spectate the reported player" # The description when you put the mouse on the message
+
+  spectate:
+    player-offline: "&cThis player is offline" # If the player is offline
+    usage: "&7Unknown command. Try use /spectate <player>"
+
+  vanish:
+    enable: "&aYou are now vanished."
+    disable: "&cYou are no longer vanished."
+    already-vanished: "&eYou are already vanished."
+    not-vanished: "&eYou are not vanished."
+    actionbar: "&7&lYou are in &aVANISH | /spectate <player> tp exit from spect mode"

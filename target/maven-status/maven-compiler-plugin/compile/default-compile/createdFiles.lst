@@ -1,0 +1,12 @@
+dev\snitchiolas\advancedReport\files\StaffToggleYML.class
+dev\snitchiolas\advancedReport\utils\DiscordWebhook.class
+dev\snitchiolas\advancedReport\commands\ReloadConfigCommand.class
+dev\snitchiolas\advancedReport\files\MessagesYML.class
+dev\snitchiolas\advancedReport\Initializer.class
+dev\snitchiolas\advancedReport\managers\VanishManager.class
+dev\snitchiolas\utils\ColorUtils.class
+dev\snitchiolas\advancedReport\utils\StorageFile.class
+dev\snitchiolas\advancedReport\utils\MessagesFile.class
+dev\snitchiolas\advancedReport\commands\ReportCommand.class
+dev\snitchiolas\advancedReport\commands\SpectatePlayerCommand.class
+dev\snitchiolas\advancedReport\utils\InventorySave.class
